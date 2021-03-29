@@ -11,25 +11,25 @@ routes:
 
 [![Install Gotify with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=gotify) [![Integration level](https://dash.yunohost.org/integration/gotify.svg)](https://dash.yunohost.org/appci/app/gotify)
 
-### Index
+A simple server for sending and receiving messages.
+
+## Index
 
 - [Configuration](#configuration)
 - [Limitations with YunoHost](#limitations-with-yunohost)
 - [Customer Applications](#customer-applications)
 - [Useful links](#useful-links)
 
-A simple server for sending and receiving messages.
-
-## Configuration
+### Configuration
 
 Edit config.yml file via SSH.
 
-## Limitations with YunoHost
+### Limitations with YunoHost
 
-Require dedicated domain like gotify.domain.tld.
+Requires a dedicated domain like 'gotify.domain.tld'.
 No LDAP support (blocked until Gotify core upstream implements it)
 
-## Customer applications
+### Client applications
 
 | Application name¹  | Platform | Multi-account | Play Store | F-Droid | Apple Store |
 |:--------------------:|:--------:|:-------------:|:----------:|:-------:|:-----------:|
@@ -37,7 +37,7 @@ No LDAP support (blocked until Gotify core upstream implements it)
 
 > ¹ (of) : Official / (un) : Unofficial
 
-## Useful links
+### Useful links
 
 + Website: [gotify.net](https://gotify.net/)
 + Official documentation: [https://gotify.net/docs/index](https://gotify.net/docs/index)
